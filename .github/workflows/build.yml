@@ -1,6 +1,8 @@
 name: Continues Integration
 
-on: [push]
+on: 
+  push:
+    tags: [release-*]
 
 jobs:
   build:
