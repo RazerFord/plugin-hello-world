@@ -2,7 +2,8 @@ name: Continues Integration
 
 on: 
   push:
-    tags: [release-*]
+    tags: 
+      - rel-*
 
 jobs:
   build:
